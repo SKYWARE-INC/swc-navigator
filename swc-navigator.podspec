@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/skyware-jayk/swc-navigator'
+  s.homepage         = 'https://github.com/SKYWARE-INC/swc-navigator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'skyware-jayk' => 'jjkim@skyware.co.kr' }
-  s.source           = { :git => 'https://github.com/skyware-jayk/swc-navigator.git', :tag => s.version.to_s }
+  s.author           = { 'SKYWARE-INC' => 'skyware0704@gmail.com' }
+  s.source           = { :git => 'https://github.com/SKYWARE-INC/swc-navigator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

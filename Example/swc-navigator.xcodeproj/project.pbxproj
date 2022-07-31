@@ -31,9 +31,9 @@
 		1CABE940644DA4617313B9B9 /* Pods-swc-navigator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swc-navigator_Tests.release.xcconfig"; path = "Target Support Files/Pods-swc-navigator_Tests/Pods-swc-navigator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2CFC5AAC19FB16152CE09496 /* Pods-swc-navigator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swc-navigator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-swc-navigator_Tests/Pods-swc-navigator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3176FF89F18282AE42DF0229 /* Pods-swc-navigator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swc-navigator_Example.debug.xcconfig"; path = "Target Support Files/Pods-swc-navigator_Example/Pods-swc-navigator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		34C5DC78DB695D7E16CA46C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		34C5DC78DB695D7E16CA46C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3E4D5E1E1CAFE2AE540C4637 /* Pods_swc_navigator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swc_navigator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44EC1D64E46510636D62B98D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		44EC1D64E46510636D62B98D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* swc-navigator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swc-navigator_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		92FD3297683B4BC7459EC472 /* Pods-swc-navigator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swc-navigator_Example.release.xcconfig"; path = "Target Support Files/Pods-swc-navigator_Example/Pods-swc-navigator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DE29B6FD226AEE49603AA9A7 /* swc-navigator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "swc-navigator.podspec"; path = "../swc-navigator.podspec"; sourceTree = "<group>"; };
+		DE29B6FD226AEE49603AA9A7 /* swc-navigator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "swc-navigator.podspec"; path = "../swc-navigator.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F3BCCE0BCEE8D84CA25D98BF /* Pods_swc_navigator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swc_navigator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				2CFC5AAC19FB16152CE09496 /* Pods-swc-navigator_Tests.debug.xcconfig */,
 				1CABE940644DA4617313B9B9 /* Pods-swc-navigator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -438,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -484,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
