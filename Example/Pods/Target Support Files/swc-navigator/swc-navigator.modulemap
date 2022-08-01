@@ -1,0 +1,6 @@
+framework module swc_navigator {
+  umbrella header "swc-navigator-umbrella.h"
+
+  export *
+  module * { export * }
+}

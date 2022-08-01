@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  swc-navigator
 //
-//  Created by skyware-jayk on 08/01/2022.
-//  Copyright (c) 2022 skyware-jayk. All rights reserved.
+//  Created by SKYWARE-INC on 08/01/2022.
+//  Copyright (c) 2022 SKYWARE-INC. All rights reserved.
 //
 
 import UIKit
