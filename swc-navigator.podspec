@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'swc-navigator'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of swc-navigator.'
+  s.summary          = 'SKYWARE Co., Ltd. swc-navigator.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/SKYWARE-INC/swc-navigator'
+  s.homepage         = 'http://www.skyware.co.kr'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SKYWARE-INC' => 'skyware0704@gmail.com' }
