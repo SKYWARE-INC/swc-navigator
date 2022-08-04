@@ -8,6 +8,7 @@
 import UIKit
 
 public struct SwcAlert {
+    
     // UIAlertController start
     public static func showAlertView(target: UIViewController, title: String, message: String) {
         

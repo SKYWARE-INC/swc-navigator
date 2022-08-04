@@ -22,7 +22,7 @@ pod 'swc-navigator'
 
 ## Author
 
-SKYWARE-INC, skyware0704@gmail.com
+[SKYWARE-INC](http://www.skyware.co.kr)
 
 ## License
 
